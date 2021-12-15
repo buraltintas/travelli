@@ -1,6 +1,6 @@
 .main {
   width: 100%;
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -45,7 +45,7 @@
 }
 
 h2 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-size: 6rem;
   color: rgb(95, 125, 153);
   transition: all 300ms;
