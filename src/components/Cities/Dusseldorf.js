@@ -12,10 +12,7 @@ const Dusseldorf = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Düsseldorf</h1>
-        <i>
-          "Almanya'nın batısında Ren Nehri üzerinde yer alan, Avrupa'nın en
-          önemli kültür ve ekonomi merkezlerinden biri"
-        </i>
+        <i>"Avrupa'nın en önemli kültür ve ekonomi merkezlerinden biri"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

@@ -12,10 +12,7 @@ const Pisa = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Pisa</h1>
-        <i>
-          "Eğik Pisa Kulesi'nin bulunduğu ve Galileo Galilei'nin yaşamış olduğu
-          kent"
-        </i>
+        <i>"Eğik Pisa Kulesi ve Galileo Galilei"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

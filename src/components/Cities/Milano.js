@@ -12,10 +12,7 @@ const Milano = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Milano</h1>
-        <i>
-          "Hem tarihi hem de modern dünyayı birarada soluyabileceğiniz bir yaşam
-          tarzı"
-        </i>
+        <i>"Hem tarihi hem modern"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

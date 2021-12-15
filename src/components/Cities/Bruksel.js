@@ -12,11 +12,7 @@ const Bruksel = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Brüksel</h1>
-        <i>
-          "Avrupa Birliği ve NATO ile ilgili birçok kurumu barındırıyor
-          olmasından dolayı Avrupa Birliği ve Avrupa başkenti olarak da
-          adlandırılır"
-        </i>
+        <i>"Avrupa Birliği ve Avrupa başkenti olarak da adlandırılır"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

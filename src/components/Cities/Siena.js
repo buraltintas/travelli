@@ -12,10 +12,7 @@ const Siena = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Siena</h1>
-        <i>
-          "Piazza Del Campo meydanında Orta Çağ kökenli ünlü at yarışlarını
-          izleyebilirsiniz"
-        </i>
+        <i>"Orta Çağ kökenli ünlü at yarışları"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

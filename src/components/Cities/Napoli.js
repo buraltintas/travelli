@@ -12,9 +12,7 @@ const Napoli = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Napoli</h1>
-        <i>
-          "Pizza ve makarnasıyla ünlü kent, yaşam tarzıyla da dikkat çekiyor"
-        </i>
+        <i>"Ünlü pizzalar ve makarnalar"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

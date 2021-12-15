@@ -150,6 +150,9 @@ function App() {
         <SanGimignano />
         <Footer />
       </Route>
+      <Route path="*">
+        <Redirect to="/home" />
+      </Route>
     </div>
   );
 }

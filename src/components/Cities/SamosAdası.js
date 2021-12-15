@@ -12,9 +12,7 @@ const SamosAdası = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Samos Adası</h1>
-        <i>
-          "Sessiz harika koyları, eşsiz plajları ile büyüleyen bir atmosfer"
-        </i>
+        <i>"Eşsiz plajları ile büyüleyen bir atmosfer"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

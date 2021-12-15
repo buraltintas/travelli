@@ -12,7 +12,7 @@ const BuranoAdası = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Burano Adası</h1>
-        <i>"Birbirine köprülerle bağlı 4 adadan oluşan balıkçı adası"</i>
+        <i>"4 adacıktan oluşan balıkçı adası"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

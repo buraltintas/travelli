@@ -12,10 +12,7 @@ const Luksemburg = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Lüksemburg</h1>
-        <i>
-          "Lüksemburg şehri, bir Avrupa başkentinin sunabileceği canlı,
-          kozmopolit bir atmosfer sunuyor"
-        </i>
+        <i>"Canlı, kozmopolit bir atmosfer"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

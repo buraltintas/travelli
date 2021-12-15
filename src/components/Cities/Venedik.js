@@ -12,10 +12,7 @@ const Venedik = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Venedik</h1>
-        <i>
-          "Güzel kanallarla ayrılmış ve muhteşem köprülerle birbirine bağlanan
-          117 küçük adadan oluşuyor"
-        </i>
+        <i>"117 küçük ada"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

@@ -121,7 +121,7 @@ h4 {
 
 @media (max-width: 30em) {
   html {
-    font-size: 40%;
+    font-size: 45%;
   }
   .popup {
     height: 18rem;
@@ -141,19 +141,12 @@ h4 {
 
 @media (max-width: 24em) {
   html {
-    font-size: 40%;
+    font-size: 45%;
   }
   .popup {
     height: 18rem;
   }
   img {
     width: 4rem;
-  }
-  .map {
-    width: 34rem;
-  }
-  .mapContainer {
-    height: 34rem !important;
-    width: 34rem !important;
   }
 }

@@ -12,10 +12,7 @@ const Roma = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Roma</h1>
-        <i>
-          "Tarihi zenginlikleriyle meşhur olmasının yanı sıra, Katolik
-          Kilisesinin idarî ve ruhanî merkezidir"
-        </i>
+        <i>"Tarih zengini"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

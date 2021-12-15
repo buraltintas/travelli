@@ -12,10 +12,7 @@ const SakızAdası = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Sakız Adası</h1>
-        <i>
-          "Damla sakızı üretiminin yapıldığı yegane yer olan Sakız Adası adını,
-          ününü de borçlu olduğu bu ağaçlardan almaktadır"
-        </i>
+        <i>"Damla sakızının başkenti"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

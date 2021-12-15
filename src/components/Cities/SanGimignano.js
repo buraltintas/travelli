@@ -12,9 +12,7 @@ const SanGimignano = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>San Gimignano</h1>
-        <i>
-          "Etrafı surlarla çevrili, çok iyi korunmuş olan bir Orta Çağ kasabası"
-        </i>
+        <i>"Orta çağın Manhattan'ı"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

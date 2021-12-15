@@ -12,10 +12,7 @@ const MeisAdası = () => {
           className={classes.img}
         />
         <h1 className={classes.cityh1}>Meis Adası</h1>
-        <i>
-          "Yunanca ismiyle Megisti, Türkçesiyle Meis ve İtalyanca ismiyle
-          Kastellorizo"
-        </i>
+        <i>"Kastellorizo"</i>
       </div>
       <div className={classes.details}>
         <details className={classes.detailsSections}>

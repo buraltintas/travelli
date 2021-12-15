@@ -13,8 +13,8 @@ const Brugge = () => {
         />
         <h1 className={classes.cityh1}>Brugge</h1>
         <i>
-          "Brugge, Belçika’nın en çok turist alan ve mutlaka görülmesi gereken
-          kentlerinin başında geliyor"
+          "En çok turist alan ve mutlaka görülmesi gereken kentlerin başında
+          geliyor"
         </i>
       </div>
       <div className={classes.details}>

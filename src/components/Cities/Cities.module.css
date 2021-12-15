@@ -5,7 +5,7 @@
 .details {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   width: 100%;
   transition: all 300ms;
   color: rgb(95, 125, 153);
