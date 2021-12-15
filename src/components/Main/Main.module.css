@@ -141,10 +141,10 @@ h4 {
     width: 4rem;
   }
   .map {
-    width: 64rem;
+    width: 48rem;
   }
   .mapContainer {
-    height: 64rem !important;
-    width: 64rem !important;
+    height: 48rem !important;
+    width: 48rem !important;
   }
 }
