@@ -6,11 +6,12 @@
   justify-content: space-between;
   /* padding-left: 20rem;
   padding-right: 20rem; */
-  padding: 1rem 4rem;
+  padding: 2rem 3rem;
 }
 
 .logo {
   width: 24rem;
+  padding: -2rem;
 }
 
 .navButton {

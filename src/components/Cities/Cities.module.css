@@ -1,0 +1,99 @@
+.cityPage {
+  margin-top: 3rem;
+}
+
+.details {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  transition: all 300ms;
+  color: rgb(95, 125, 153);
+}
+
+.cityHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.cityh1 {
+  margin-bottom: 0.5rem;
+  font-size: 6rem;
+}
+
+i {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.img {
+  text-align: center;
+  width: 40rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.detailsSections {
+  grid-column: 2 / 3;
+  transition: all 300ms;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms;
+}
+
+.detailsSections:hover {
+  color: #32dba9;
+}
+
+.description {
+  color: rgb(80, 112, 141);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+details[open] {
+  padding: 1em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+
+summary {
+  font-size: 3rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  grid-column: 2 / 3;
+  align-self: center;
+  transition: all 300ms;
+}
+
+summary::marker {
+  color: rgb(95, 125, 153);
+}
+
+.map {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapContainer {
+  margin: 0 auto;
+  border: 0.2rem dashed rgb(95, 125, 153);
+  border-radius: 2rem;
+  margin: 1rem !important;
+}

@@ -81,7 +81,7 @@ const Select = () => {
       image:
         "https://res.cloudinary.com/turna/images/w_800,h_500/f_auto,q_auto/q_auto:low/v1538836192/Sirbistan-Belgrad_ttmklp/Sirbistan-Belgrad_ttmklp.webp?_i=AA",
       city: "Belgrad",
-      coordinate: [44.87321841025922, 20.47886728738431],
+      coordinate: [44.81314376957919, 20.462546452270168],
     },
     {
       image:

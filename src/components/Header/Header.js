@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../img/cover.png";
+
+import logo from "../../img/logo.svg";
 import classes from "./Header.module.css";
 
 const Header = () => {
