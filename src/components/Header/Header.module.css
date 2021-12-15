@@ -34,9 +34,9 @@
   border-radius: 3rem;
   padding: 0.8rem;
   background: linear-gradient(45deg, rgb(50, 219, 168), rgb(0, 196, 238));
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
+  -webkit-mask-composite: exclude;
 }
 
 .navButton:hover {

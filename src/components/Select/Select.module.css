@@ -105,16 +105,25 @@ ul {
   .cities {
     grid-template-columns: 1fr 1fr;
   }
+  ul {
+    width: 18rem !important;
+  }
 }
 
 @media (max-width: 24em) {
   html {
     font-size: 25%;
   }
+  ul {
+    width: 16rem !important;
+  }
 }
 
 @media (max-width: 20em) {
   html {
     font-size: 20%;
+  }
+  ul {
+    width: 12rem !important;
   }
 }
