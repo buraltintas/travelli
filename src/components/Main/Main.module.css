@@ -61,14 +61,17 @@ h4 {
 .spin:after {
   content: "";
   animation: spin 1s linear infinite alternate;
+  -webkit-animation: spin 1s linear infinite alternate;
 }
 @keyframes spin {
   0% {
     content: "Gezmeyi";
+    -webkit-content: "Gezmeyi";
   }
 
   100% {
     content: "Görmeyi";
+    -webkit-content: "Görmeyi";
   }
 }
 

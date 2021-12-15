@@ -58,14 +58,17 @@ ul {
 .spin:after {
   content: "";
   animation: spin 1s linear infinite alternate;
+  -webkit-animation: spin 1s linear infinite alternate;
 }
 @keyframes spin {
   0% {
     content: "gezelim?";
+    -webkit-content: "gezelim?";
   }
 
   100% {
     content: "görelim?";
+    -webkit-content: "görelim?";
   }
 }
 
