@@ -160,9 +160,7 @@ const Select = () => {
   return (
     <div>
       <div>
-        <h1>
-          Nereyi <span className={classes.spin}></span>
-        </h1>
+        <h1>Nereyi gezelim?</h1>
       </div>
       <div className={classes.cities}>
         {places.map((city) => (

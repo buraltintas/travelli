@@ -20,7 +20,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(95, 125, 153);
   border-radius: 2rem;
 }
 
@@ -36,7 +36,7 @@ ul {
 
 .cities a {
   text-decoration: none;
-  color: rgba(217, 236, 252, 0.849);
+  color: rgba(245, 250, 255, 0.89);
   text-align: center;
   transition: all 300ms;
   font-size: 3rem;
@@ -55,30 +55,6 @@ ul {
 .spin {
   color: rgb(122, 161, 197);
 }
-.spin:after {
-  content: "";
-  animation: spin 1s linear infinite alternate;
-  -webkit-animation: spin 1s linear infinite alternate;
-}
-@keyframes spin {
-  0% {
-    content: "gezelim?";
-  }
-
-  100% {
-    content: "görelim?";
-  }
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-content: "gezelim?";
-  }
-
-  100% {
-    -webkit-content: "görelim?";
-  }
-}
 
 @media (max-width: 74em) {
   html {
@@ -96,11 +72,17 @@ ul {
   html {
     font-size: 45%;
   }
+  ul {
+    width: 24rem !important;
+  }
 }
 
 @media (max-width: 52em) {
   html {
     font-size: 40%;
+  }
+  ul {
+    width: 20rem !important;
   }
 }
 
@@ -113,6 +95,9 @@ ul {
 @media (max-width: 40em) {
   html {
     font-size: 30%;
+  }
+  ul {
+    width: 24rem !important;
   }
 }
 

@@ -1,5 +1,6 @@
 import classes from "./Main.module.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   const places = [
@@ -161,9 +162,7 @@ const Main = () => {
   return (
     <div className={classes.main}>
       <div className={classes.hero}>
-        <h2>
-          <span className={classes.spin}></span> kim sevmez?
-        </h2>
+        <h2>Gezmeyi kim sevmez?</h2>
         <h4>Haritadan bir yer seç ve keşfet!</h4>
       </div>
       <div className={classes.map}>
@@ -188,7 +187,7 @@ const Main = () => {
                     className={classes.img}
                   />
                   <h3>{marker.city}</h3>
-                  <button>Hadi gezelim!</button>
+                  <Link to={marker.city}>Hadi gidelim!</Link>
                 </div>
               </Popup>
             </Marker>

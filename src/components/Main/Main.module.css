@@ -22,6 +22,24 @@
   margin: 1rem !important;
 }
 
+.popup a {
+  text-decoration: none;
+  color: rgb(134, 156, 177);
+  text-align: center;
+  transition: all 300ms;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgba(95, 125, 153, 0.534);
+  border-radius: 2rem;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.popup a:hover,
+.popup a:active {
+  color: #60adad;
+  border: 0.1rem solid rgba(95, 125, 153, 0.534);
+}
+
 h2 {
   margin-top: 5rem;
   font-size: 5rem;
@@ -47,7 +65,7 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  height: 20rem;
+  height: 24rem;
 }
 
 .img {
@@ -57,22 +75,6 @@ h4 {
 
 .spin {
   color: rgb(122, 161, 197);
-}
-.spin:after {
-  content: "";
-  animation: spin 1s linear infinite alternate;
-  -webkit-animation: spin 1s linear infinite alternate;
-}
-@keyframes spin {
-  0% {
-    content: "Gezmeyi";
-    -webkit-content: "Gezmeyi";
-  }
-
-  100% {
-    content: "Görmeyi";
-    -webkit-content: "Görmeyi";
-  }
 }
 
 @media (max-width: 65em) {
@@ -95,16 +97,54 @@ h4 {
   html {
     font-size: 40%;
   }
+  img {
+    width: 10rem;
+  }
+  .map {
+    height: 24rem;
+    width: 48rem;
+  }
+  .mapContainer {
+    height: 36rem !important;
+    width: 48rem !important;
+  }
 }
 
 @media (max-width: 30em) {
   html {
     font-size: 35%;
   }
+  .popup {
+    height: 18rem;
+  }
+  img {
+    width: 8rem;
+  }
+  .map {
+    height: 58rem;
+    width: 58rem;
+  }
+  .mapContainer {
+    height: 58rem !important;
+    width: 58rem !important;
+  }
 }
 
 @media (max-width: 24em) {
   html {
     font-size: 30%;
+  }
+  .popup {
+    height: 18rem;
+  }
+  img {
+    width: 4rem;
+  }
+  .map {
+    width: 64rem;
+  }
+  .mapContainer {
+    height: 64rem !important;
+    width: 64rem !important;
   }
 }
