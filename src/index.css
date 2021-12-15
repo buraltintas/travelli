@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans, sans-serif;
+}
+
+html {
+  background-color: rgb(235, 251, 250);
+  color: rgb(59, 59, 59);
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+}

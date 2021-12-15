@@ -1,0 +1,44 @@
+.header {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-left: 20rem;
+  padding-right: 20rem; */
+  padding-top: 2rem;
+}
+
+.logo {
+  width: 24rem;
+}
+
+.navButton {
+  position: relative;
+  padding: 2rem;
+
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(95, 125, 153);
+  transition: all 300ms;
+}
+
+.navButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 3rem;
+  padding: 0.8rem;
+  background: linear-gradient(45deg, rgb(50, 219, 168), rgb(0, 196, 238));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.navButton:hover {
+  color: #32dba9;
+}

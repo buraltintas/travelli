@@ -1,0 +1,124 @@
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: rgb(95, 125, 153);
+  text-align: center;
+  font-size: 5rem;
+}
+
+img {
+  width: 8rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 10rem;
+  width: 30rem !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+}
+
+.cities {
+  width: 80%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.cities a {
+  text-decoration: none;
+  color: rgba(217, 236, 252, 0.849);
+  text-align: center;
+  transition: all 300ms;
+  font-size: 3rem;
+  text-shadow: 4px 4px 2px rgba(121, 119, 119, 0.733);
+  padding: 1rem;
+  justify-self: center;
+  width: 30rem !important;
+  height: 10rem;
+}
+
+.cities a:hover,
+.cities a:active {
+  color: #60adad;
+}
+
+.spin {
+  color: rgb(122, 161, 197);
+}
+.spin:after {
+  content: "";
+  animation: spin 1s linear infinite alternate;
+}
+@keyframes spin {
+  0% {
+    content: "gezelim?";
+  }
+
+  100% {
+    content: "görelim?";
+  }
+}
+
+@media (max-width: 74em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 58em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 52em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 46em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 40em) {
+  .cities {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media (max-width: 20em) {
+  html {
+    font-size: 20%;
+  }
+}

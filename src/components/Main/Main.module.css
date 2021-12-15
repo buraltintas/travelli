@@ -1,0 +1,107 @@
+.main {
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 4rem;
+}
+
+.hero {
+  width: 60rem;
+}
+
+.map {
+  height: 38rem;
+  width: 60rem;
+}
+
+.mapContainer {
+  border: 0.2rem dashed rgb(95, 125, 153);
+  border-radius: 2rem;
+  margin: 1rem !important;
+}
+
+h2 {
+  margin-top: 5rem;
+  font-size: 5rem;
+  color: rgb(95, 125, 153);
+  transition: all 300ms;
+}
+
+h3 {
+  color: rgb(95, 125, 153);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  color: rgb(91, 112, 131);
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 20rem;
+}
+
+.img {
+  width: 15rem;
+  border-radius: 1rem;
+}
+
+.spin {
+  color: rgb(122, 161, 197);
+}
+.spin:after {
+  content: "";
+  animation: spin 1s linear infinite alternate;
+}
+@keyframes spin {
+  0% {
+    content: "Gezmeyi";
+  }
+
+  100% {
+    content: "Görmeyi";
+  }
+}
+
+@media (max-width: 65em) {
+  .main {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  html {
+    font-size: 50%;
+  }
+  h4,
+  h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 32em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 30%;
+  }
+}
