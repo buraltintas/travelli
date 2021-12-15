@@ -101,7 +101,7 @@ h4 {
     width: 10rem;
   }
   .map {
-    height: 24rem;
+    height: 36rem;
     width: 48rem;
   }
   .mapContainer {
@@ -121,12 +121,12 @@ h4 {
     width: 8rem;
   }
   .map {
-    height: 44rem;
-    width: 44rem;
+    height: 40rem;
+    width: 40rem;
   }
   .mapContainer {
-    height: 44rem !important;
-    width: 44rem !important;
+    height: 40rem !important;
+    width: 40rem !important;
   }
 }
 
@@ -141,10 +141,10 @@ h4 {
     width: 4rem;
   }
   .map {
-    width: 32rem;
+    width: 30rem;
   }
   .mapContainer {
-    height: 32rem !important;
-    width: 32rem !important;
+    height: 30rem !important;
+    width: 30rem !important;
   }
 }
