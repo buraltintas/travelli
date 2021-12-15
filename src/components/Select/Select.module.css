@@ -63,11 +63,19 @@ ul {
 @keyframes spin {
   0% {
     content: "gezelim?";
-    -webkit-content: "gezelim?";
   }
 
   100% {
     content: "görelim?";
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-content: "gezelim?";
+  }
+
+  100% {
     -webkit-content: "görelim?";
   }
 }
